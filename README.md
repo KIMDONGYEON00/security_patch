@@ -2,6 +2,15 @@
 
 This repository tracks security vulnerability reports and patch contributions submitted to open-source projects.
 
+---
+
+
+## CVE Registration
+
+- [CVE-2025-26269](https://nvd.nist.gov/vuln/detail/CVE-2025-26269)  - `dragonflydb/dragonfly` 
+
+
+---
 
 
 ### Status
@@ -52,9 +61,6 @@ This repository tracks security vulnerability reports and patch contributions su
 | 37 | `eduard-permyakov/permafrost-engine` | CVE-2022-22827 | [PR #33](https://github.com/eduard-permyakov/permafrost-engine/pull/33) | ⏳ |
 | 38 | `eduard-permyakov/permafrost-engine` | CVE-2022-25236 | [PR #33](https://github.com/eduard-permyakov/permafrost-engine/pull/33) | ⏳ |
 
-## CVE Registration
-
-- [CVE-2025-26269](https://nvd.nist.gov/vuln/detail/CVE-2025-26269)  - `dragonflydb/dragonfly` 
 
 ---
 
