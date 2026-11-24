@@ -1,26 +1,18 @@
 # Security Patch Contributions
 
-This repository tracks security vulnerability reports and patch contributions submitted to open-source projects.
-
----
-
+This repository documents my security vulnerability research, responsible disclosures, and patch contributions to open-source projects.
 
 ## CVE Registration
 
-- [CVE-2025-26269](https://nvd.nist.gov/vuln/detail/CVE-2025-26269)  - `dragonflydb/dragonfly` 
-
-
----
-
-
-### Status
-
-- ✅ **Patched** — The patch has been accepted or merged.
-- ⏳ **Pending** — The patch or report is still under review.
+- [CVE-2025-26269](https://nvd.nist.gov/vuln/detail/CVE-2025-26269) — `dragonflydb/dragonfly`
 
 ## Patch Status
 
-| No. | Repository | CVE | Patch Link | Status |
+Publicly submitted security fixes, including patches for previously disclosed CVEs and newly identified issues. A single PR may address multiple CVEs; each row does not necessarily represent a distinct patch submission.
+
+**Status:** ✅ **Patched** — accepted or merged upstream. ⏳ **Pending** — open or under review.
+
+| No. | Repository | CVE / Issue | Patch Link | Status |
 |---:|---|---|---|:---:|
 | 1 | `wireshark/wireshark` | CVE-2024-31449 | [MR #19487](https://gitlab.com/wireshark/wireshark/-/merge_requests/19487) | ✅ |
 | 2 | `dragonflydb/dragonfly` | CVE-2024-31449 | [PR #4854](https://github.com/dragonflydb/dragonfly/pull/4854) | ✅ |
@@ -60,8 +52,14 @@ This repository tracks security vulnerability reports and patch contributions su
 | 36 | `eduard-permyakov/permafrost-engine` | CVE-2022-22826 | [PR #33](https://github.com/eduard-permyakov/permafrost-engine/pull/33) | ⏳ |
 | 37 | `eduard-permyakov/permafrost-engine` | CVE-2022-22827 | [PR #33](https://github.com/eduard-permyakov/permafrost-engine/pull/33) | ⏳ |
 | 38 | `eduard-permyakov/permafrost-engine` | CVE-2022-25236 | [PR #33](https://github.com/eduard-permyakov/permafrost-engine/pull/33) | ⏳ |
-
+| 39 | `Tencent/Tendis` | Out-of-bounds read in `easyCopy` | [PR #492](https://github.com/Tencent/Tendis/pull/492) | ⏳ |
+| 40 | `Tencent/Tendis` | Crash on malformed Quicklist `RESTORE` input | [PR #493](https://github.com/Tencent/Tendis/pull/493) | ⏳ |
+| 41 | `Snapchat/KeyDB` | Integer overflow in Cluster Bus message-length validation | [PR #987](https://github.com/Snapchat/KeyDB/pull/987) | ⏳ |
+| 42 | `Snapchat/KeyDB` | Use-after-free in TLS pending-connection handling | [PR #988](https://github.com/Snapchat/KeyDB/pull/988) | ⏳ |
+| 43 | `wireshark/wireshark` | Procmon PML memory amplification | [MR !28321](https://gitlab.com/wireshark/wireshark/-/merge_requests/28321) | ✅ |
 
 ---
 
-> The status reflects the state recorded in the project tracking sheet and may change as upstream maintainers review or merge submitted patches.
+*Only publicly disclosed issues and patch submissions are listed. Findings under coordinated disclosure are omitted until publication or maintainer approval.*
+
+*Statuses reflect the last recorded upstream review state and may change. Public PR/MR links are provided for verification.*
